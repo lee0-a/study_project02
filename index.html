@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css" />
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="container_wrap flex_center">
+        <div class="container rel">
+            <h1 class="title bold">ToDo List</h1>
+            <section class="input_area flex">
+                <input type="text" id="task_input"/>
+                <button class="input_btn" id="addBtn">+</button>
+            </section>
+            <section class="task_area">
+                <div class="task_tabs flex rel">
+                    <div id="under_line" class="abs"></div>
+                    <div class="task_tab">All</div>
+                    <div class="task_tab">Not Done</div>
+                    <div class="task_tab">Done</div>
+                </div>
+                <div class="task_box" id="task_box"></div>
+            </section>
+        </div>
+    </div>
+    <script src="/js/script.js"></script>
+</body>
+</html>
