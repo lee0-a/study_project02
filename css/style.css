@@ -21,8 +21,8 @@ body::before{content: '';display: block;position: absolute;top: 0;left: 0;width:
 /* task_area */
 .task_area{border: 1px solid #ccc;border-radius: 15px;}
 .task_tabs{border-bottom: 1px solid #ccc;}
-.task_tab{padding: 30px 20px;}
-.task_tabs #under_line{left: 0;bottom: 0;width: 60px;height: 4px;background-color: #0047AB;}
+.task_tab{padding: 30px 20px;cursor: pointer;}
+.task_tabs #under_line{left: 0;bottom: 0;width: 60px;height: 4px;background-color: #0047AB;transition: all 0.3s linear;}
 .task_box{padding: 20px 0;}
 .task_box .task{padding: 20px;}
 .task_box .task_content{font-size: 20px;}
